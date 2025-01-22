@@ -11,7 +11,14 @@ body{
 background: rgb(247, 247, 247);
 }
 
-
+.marq{
+    
+    color: rgb(221, 12, 16);
+    
+    font-size: 2rem ;
+    position: fixed;
+    
+}
 /* NAV BAR DESIGNING */
 
 .nav-pic h3 {
@@ -596,7 +603,7 @@ font-weight: 700;
     
 
 }
-
+/* Media query part */
 
 @media screen and (max-width: 576px){
     .nav-pic h3{display: none;}
@@ -636,7 +643,9 @@ font-weight: 700;
     align-items: center;
  
 }
-
+.arrow{
+    display: none;
+}
 .main-item{
     display: none;
 }
