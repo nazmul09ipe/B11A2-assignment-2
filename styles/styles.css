@@ -148,9 +148,7 @@ background: rgb(247, 247, 247);
     
 }
 
-.hero-pic{
-    width: 100%;
-}
+
 
 .paragraph {
     display: flex;
@@ -164,7 +162,7 @@ background: rgb(247, 247, 247);
 
 .paragraph .long-para {
     font-family: Quicksand;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 24px;
 
@@ -181,6 +179,7 @@ background: rgb(247, 247, 247);
 }
 
 .empower {
+
     color: rgb(254, 163, 1);
 
 }
@@ -448,22 +447,22 @@ background: rgb(255, 255, 255);
 
 } 
 .first button{
-    border-radius: 48px;
+    border-radius: 3rem;
 background: rgb(149,178, 29);
 color: rgb(255, 255, 255);
 font-family: Raleway;
 font-size: 1rem;
 font-weight: 500;
-width: 174px;
-height: 38px;
+width: 10rem;
+height: 2rem;
 border: 0;
 position: relative;
-right:40px;
-top: -30px;
+right:2.5rem;
+top: -1.8rem;
 }
 
 .branch-item{
-    gap: 19px;
+    gap: 1rem;
     
 }
 
@@ -541,13 +540,13 @@ padding: 123px 228px 174px 140px;
     
 }
 .footer-content{
-    width: 1070px;
-    margin: 0 auto;
+    max-width: 1070px; 
+     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 50px; */
-   
+    
+    
   
 }
 
@@ -657,11 +656,21 @@ font-weight: 700;
     align-items: center;
     margin-bottom: 50px;
 }
+
+.hero-pic img{
+width: 100%;
+
+}
+.hero-pic{
+    margin: 0 20px;
+}
 .card{
     display: grid;
   grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
  
 }
 .arrow{
@@ -675,6 +684,9 @@ font-weight: 700;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
+ margin-left: 10px;
+ margin-right:10px ;
+    gap:10px;
 }
 
 
@@ -685,22 +697,24 @@ font-weight: 700;
 
 
 .footer-content{
+   margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-    align-items: center;
-    
-   
-}
+   grid-template-columns: repeat(1, 1fr);
+   align-items: center;
+   justify-content: center; 
 
-
-
+margin-left: 90px;
 
     }
 
 
+.paragraph .short-para, .paragraph .long-para{ margin-left: 10px;
+    margin-right: 10px;
+
+}
 
 
+}
     
 
 
